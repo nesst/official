@@ -1,0 +1,43 @@
+a {
+	color: hsla (200, 60%, 45%, 1);
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.bio{
+	width: 350px;
+	margin: 0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bio header{
+	color: red;
+}
+.bio header img{
+	max-width: 100%;
+	border-radius: 20px;
+	border-width:
+	border-style: 
+	border-color:black;
+}
+
+.bio header h1,
+.bio header h2{
+	margin:0;
+}
+
+.bio header h1{
+	
+}
+.bio header h2{
+
+}
+
+footer{
+	width: 100%;
+	background-color: rgba(0,0,0,.2);
+	padding: 20px;
+}
