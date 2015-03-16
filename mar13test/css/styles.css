@@ -1,0 +1,46 @@
+body{
+	background-color: white;
+
+	margin: 0;
+}
+
+section{
+	height: 300px;
+	width:300px;
+	margin:40px;
+	background-color:lightgray;
+	position:relative;
+}
+
+div{
+	width:100px;
+	height: 100px;
+	background-color: hsla(300,40%,60%,1);
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	position:absolute;
+
+}
+div:first-child{
+	background-color: hsla(300,60%,80%,1);
+	background-color: red;
+	z-index: 2;
+	bottom: 0px;
+	right:0px;
+
+}
+
+div:nth-child(2){
+		left: 0px;
+	bottom: 0px;
+}
+
+
+div:last-child{
+	background-color: hsla(300,20%,40%,1);
+	top: 0px;
+	right:0px;
+	background-color: green;
+	z-index: 3;
+}

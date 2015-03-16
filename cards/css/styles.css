@@ -1,0 +1,38 @@
+html, body{
+	height: 300px;
+	width: 100%;
+}
+body{
+	position: relative;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 200px;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#center{
+	text-align: center;
+}
+
+#center img{
+	margin: 20px 0;
+}
+
+#left, #right{
+	padding: 10px;
+}
+
+
+#right{
+	float: right;
+	transform: rotate(180deg);
+}
